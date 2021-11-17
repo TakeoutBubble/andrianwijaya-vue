@@ -1,58 +1,52 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-    <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
-    </p>
-    <h3>Installed CLI Plugins</h3>
-    <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
-    </ul>
-    <h3>Essential Links</h3>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
-    </ul>
-    <h3>Ecosystem</h3>
-    <ul>
-      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
-      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
-      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
-    </ul>
-  </div>
+<div class="container">
+      <div class='andrian'>
+           <div class="image">
+              <img src="@/assets/andrian2.png" alt="My Picture" class="picture1">
+            </div>
+                   <h1 class="title">
+                    Andrian Wijaya
+                    </h1>
+       <p class='text1'><span class='text2'>Enthusiastic </span> Web Developer</p>
+       <div class="links text-center">
+        <a class='sosmed inline-block mr-4 duration-200 ease-in-out' href="https://github.com/TakeoutBubble">
+          <img src="@/assets/github-circle.svg" alt="Github" class='w-8' target="_blank">
+        </a>
+        <a class='sosmed inline-block mr-4 duration-200 ease-in-out' href="https://www.linkedin.com/in/andrian-wijaya-056a981bb/">
+          <img src="@/assets/linkedin-circle.svg" alt="Linkedin" class='w-8' target="_blank">
+        </a>
+        <a class='sosmed inline-block mr-4 duration-200 ease-in-out' href="https://web.facebook.com/wandrian404/">
+          <img src="@/assets/facebook.svg" alt="Linkedin" class='w-8' target="_blank">
+        </a>
+        <a class='sosmed inline-block mr-4 duration-200 ease-in-out' href="https://www.instagram.com/andrianwijaya404/">
+          <img src="@/assets/instagram.svg" alt="Linkedin" class='w-8' target="_blank">
+        </a>
+        </div>
+    </div>
+      </div>
 </template>
-
 <script>
-export default {
-  name: 'HelloWorld',
-  props: {
-    msg: String
-  }
-}
+export default {};
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 40px 0 0;
+.socmed:hover {
+  transform: translateY(-10px);
 }
-ul {
-  list-style-type: none;
-  padding: 0;
+.image img {
+  filter: drop-shadow(0 10px 30px #ccc);
 }
-li {
-  display: inline-block;
-  margin: 0 10px;
+.title {
+  display: block;
+  font-weight: 300;
+  font-size: 100px;
+  color: #35495e;
+  letter-spacing: 1px;
 }
-a {
-  color: #42b983;
+.links {
+  padding-top: 15px;
+}
+.text2 {
+  color: green;
+  font-size: 30px;
 }
 </style>
