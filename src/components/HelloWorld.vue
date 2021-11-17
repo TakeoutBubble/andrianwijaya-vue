@@ -37,6 +37,11 @@
 export default {};
 </script>
 <style scoped>
+
+.container{
+  background-color: rgb(161, 216, 161);
+  height: 100%;
+}
 .socmed:hover {
   transform: translateY(-10px);
 }
@@ -55,7 +60,7 @@ export default {};
   padding-bottom: 15px;
 }
 .text2 {
-  color: green;
+  color: rgb(233, 24, 188);
   font-size: 30px;
 }
 </style>
