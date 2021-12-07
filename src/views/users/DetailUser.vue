@@ -9,7 +9,7 @@
                {{errormessage}}
                 </div>
                 <div  v-else class="card">
-                    <img src="/default-pp.jpg" class="card-img-top" alt="...">
+                    <img src="profile.jpg" class="card-img-top" alt="...">
                          <div class="card-body">
                            <h5 class="card-title">{{datausers?.name}}</h5>
                             <address class="card-text">
